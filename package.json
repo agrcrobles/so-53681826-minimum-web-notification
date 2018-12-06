@@ -1,0 +1,15 @@
+{
+  "name": "minimun-web-notifications",
+  "version": "0.0.1",
+  "description": "Not much, just testing web notifications",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel serve index.html --port 3000",
+    "build": "parcel build index.html"
+  },
+  "author": "I Zetta <agrcrobles@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  }
+}

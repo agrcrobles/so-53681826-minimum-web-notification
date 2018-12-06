@@ -1,0 +1,16 @@
+# node
+
+node_modules
+package-lock.json
+yarn.lock
+
+# logs
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# folders
+
+dist/
+.cache
