@@ -1,4 +1,4 @@
-# minimun web notifications
+# minimun-web-notification
 
 1. I am using the W3C Notifications API, documented at MDN.
 
