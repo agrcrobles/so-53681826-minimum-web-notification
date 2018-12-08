@@ -11,6 +11,7 @@
 
 * https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification
 
+
 ## Getting started
 
 Using parcel.js to host the web app
@@ -20,7 +21,6 @@ npm run serve
 ```
 
 Open `localhost:3000`
-
 
 ## License
 

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "parcel serve index.html --port 3000",
-    "build": "parcel build index.html"
+    "now-build": "parcel build index.html"
   },
   "author": "I Zetta <agrcrobles@gmail.com>",
   "license": "MIT",
