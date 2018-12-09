@@ -11,10 +11,13 @@
 
 * https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification
 
+3. Stackoverflow issue
+
+* https://stackoverflow.com/questions/53681826/why-is-the-notification-api-not-working-on-chrome-for-android
 
 ## Getting started
 
-Using parcel.js to host the web app
+Using parcel.js to bundle and now to host the web app
 
 ```
 npm run serve
