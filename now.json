@@ -2,7 +2,6 @@
 	"github": {
 	  "enabled": "true"
 	},
-	"NODE_ENV": "development",
 	"builds": [
         { "src": "package.json", "use": "@now/static-build", "config": {"distDir": "dist"} }
     ]
