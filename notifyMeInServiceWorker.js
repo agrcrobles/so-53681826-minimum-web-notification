@@ -29,23 +29,3 @@ function spawnNotificationOnTheSW(registration, body,title) {
 	}
 	registration.showNotification(title, options);
 }
-
-function subscribe() {
-	navigator.serviceWorker.ready.then(function(serviceWorkerRegistration) {
-	  serviceWorkerRegistration.pushManager.subscribe()
-		.then(function(subscription) {
-		  // The subscription was successful
-		  subscribeButton.disabled = true;
-		  return sendSubscriptionToServer(subscription);
-		})
-		.catch(function(error) {
-		  if (Notification.permission === 'denied') {
-			console.log('Permission for Notifications was denied');
-			subscribeButton.disabled = true;
-		  } else {
-			console.log('Unable to subscribe to push.', error);
-			subscribeButton.disabled = false;
-		  }
-		});
-	});
-  }
